@@ -3,6 +3,7 @@ FROM ubuntu:18.04
 RUN apt-get update -y
 
 RUN apt-get install -y ca-certificates
+RUN apt-get install -y curl
 RUN apt-get install -y fonts-liberation
 RUN apt-get install -y gconf-service
 RUN apt-get install -y libappindicator1
@@ -43,8 +44,6 @@ RUN apt-get install -y wget
 RUN apt-get install -y xdg-utils
 
 # Install Node.js
-RUN apt-get install -y curl
-
 RUN curl -sL https://deb.nodesource.com/setup_12.x | \
 	bash -
 
