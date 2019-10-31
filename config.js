@@ -1,10 +1,10 @@
 const config = {
   duration: process.env.DURATION, // in seconds
   fps: process.env.FPS,
-  height: process.env.HEIGHT,
+  height: 1024,
   outputPattern: process.env.OUTPUT_PATTERN,
   url: process.env.URL,
-  width: process.env.WIDTH
+  width: 512
 };
 
 module.exports = config;
