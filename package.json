@@ -1,0 +1,6 @@
+{
+  "name": "html-to-video",
+  "dependencies": {
+    "timesnap": "0.1.1"
+  }
+}
