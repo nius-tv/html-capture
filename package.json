@@ -1,5 +1,5 @@
 {
-  "name": "html-to-video",
+  "name": "html-capture",
   "dependencies": {
     "timesnap": "0.1.1"
   }
