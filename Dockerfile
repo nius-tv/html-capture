@@ -4,7 +4,6 @@ RUN apt-get update -y
 
 RUN apt-get install -y ca-certificates
 RUN apt-get install -y curl
-RUN apt-get install -y ffmpeg
 RUN apt-get install -y fonts-liberation
 RUN apt-get install -y gconf-service
 RUN apt-get install -y libappindicator1
