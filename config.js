@@ -1,4 +1,4 @@
-const config = {
+module.exports = {
   duration: process.env.DURATION, // in seconds
   fps: process.env.FPS,
   height: 1024,
@@ -6,5 +6,3 @@ const config = {
   url: process.env.URL,
   width: 512
 };
-
-module.exports = config;
