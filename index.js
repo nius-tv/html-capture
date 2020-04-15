@@ -7,7 +7,14 @@ module.exports = function() {
   timesnap({
     ...config,
     launchArguments: [
-      '--no-sandbox'
+      '--disable-accelerated-2d-canvas',
+      '--disable-dev-shm-usage',
+      '--disable-gpu',
+      '--disable-setuid-sandbox',
+      '--no-first-run',
+      '--no-sandbox',
+      '--no-zygote',
+      '--single-process'
     ],
     transparentBackground: true,
     viewport: {
